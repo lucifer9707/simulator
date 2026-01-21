@@ -7,9 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <h1>Bouncing Balls Simulator</h1>
-    <p>Click anywhere on the canvas to add a ball. Watch them bounce with gravity!</p>
+    <p>Click anywhere on the canvas to add a ball. Use controls to experiment.</p>
+
+    <div class="controls">
+        <button onclick="clearBalls()">Clear Balls</button>
+        <button onclick="addRandomBall()">Add Random Ball</button>
+    </div>
+
     <canvas id="simulationCanvas" width="800" height="600"></canvas>
+
     <script src="script.js"></script>
 </body>
 </html>
