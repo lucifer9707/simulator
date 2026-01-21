@@ -1,19 +1,39 @@
 body {
     font-family: Arial, sans-serif;
+    background: #f4f6f8;
     text-align: center;
-    background-color: #f0f0f0;
     margin: 0;
     padding: 20px;
 }
 
 h1 {
-    color: #333;
+    color: #0a1d37;
+}
+
+p {
+    color: #555;
 }
 
 canvas {
-    border: 2px solid #333;
-    background-color: #fff;
-    display: block;
-    margin: 20px auto;
+    border: 2px solid #0a1d37;
+    background: white;
+    margin-top: 15px;
+}
+
+.controls {
+    margin: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background: #0a1d37;
+    color: white;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
+}
+
+button:hover {
+    background: #143a6e;
 }
