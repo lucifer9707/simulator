@@ -5,6 +5,7 @@ const balls = [];
 const gravity = 0.5;
 const bounceDamping = 0.8;
 
+
 class Ball {
     constructor(x, y, vx, vy, radius, color) {
         this.x = x;
